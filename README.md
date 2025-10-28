@@ -49,6 +49,6 @@ An educational game designed to test knowledge about **IPv4 addressing, subnetti
 
 2. **Installation**:
    ```bash
-   git clone https://github.com/your-username/ipv4-quiz-game.git
+   git clone https://github.com/lucas-morim/ipv4-quiz-game.git
    cd ipv4-quiz-game
    flutter pub get
