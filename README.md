@@ -3,48 +3,52 @@
 [![Flutter](https://img.shields.io/badge/Flutter-3.13.8-blue.svg)](https://flutter.dev)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Um jogo educativo para testar conhecimentos sobre endereçamento IPv4, sub-redes e máscaras de rede, desenvolvido em Flutter.
+An educational game designed to test knowledge about **IPv4 addressing, subnetting, and network masks**, developed in **Flutter**.
 
-![App Screenshot](screenshots/app_demo.gif) (adicione suas imagens numa pasta screenshots)
+---
 
-## 📌 Funcionalidades
+## 📌 Features
 
-- *Sistema de Autenticação*:
-  - Login e registro de usuários
-  - Modo visitante
-  - Gerenciamento de sessão com Provider
+- **Authentication System**:
+  - User login and registration  
+  - Guest mode  
+  - Session management with Provider  
 
-- *Quizzes por Nível*:
-  - ✅ Fácil (Máscaras /8, /16, /24) - Timer: 30s, 3 vidas
-  - ⚠️ Médio (Sub-redes variadas) - Timer: 20s, 3 vidas
-  - 💀 Difícil (Super-redes e agregação) - Timer: 10s, 3 vidas
+- **Level-Based Quizzes**:
+  - ✅ Easy (Masks /8, /16, /24) — Timer: 30s, 3 lives  
+  - ⚠️ Medium (Various subnets) — Timer: 20s, 3 lives  
+  - 💀 Hard (Supernets and aggregation) — Timer: 10s, 3 lives  
 
-- *Perfil do Usuário*:
-  - Visualização de estatísticas
-  - Edição de dados cadastrais
-  - Histórico de pontuações
+- **User Profile**:
+  - View statistics  
+  - Edit user information  
+  - Score history  
 
-- *Ranking Global*:
-  - Top 5 jogadores por nível
-  - Comparação com seu desempenho
+- **Global Ranking**:
+  - Top 5 players per level  
+  - Compare your performance  
 
-## 🛠️ Tecnologias Utilizadas
+---
 
-| Tecnologia         | Descrição                           |
-|--------------------|-----------------------------------|
-| Flutter 3.13       | Framework cross-platform           |
-| Provider           | Gerenciamento de estado            |
-| SQFlite            | Banco de dados local SQLite        |
-| Dart 3.1           | Linguagem de programação           |
+## 🛠️ Technologies Used
 
-## 🚀 Como Executar
+| Technology | Description |
+|-------------|-------------|
+| **Flutter 3.13** | Cross-platform framework |
+| **Provider** | State management |
+| **SQFlite** | Local SQLite database |
+| **Dart 3.1** | Programming language |
 
-1. *Pré-requisitos*:
-   - Flutter SDK (versão 3.13.8 ou superior)
-   - Dispositivo/Emulador configurado
+---
 
-2. *Instalação*:
+## 🚀 How to Run
+
+1. **Prerequisites**:
+   - Flutter SDK (version **3.13.8** or higher)  
+   - Configured device or emulator  
+
+2. **Installation**:
    ```bash
-   git clone https://github.com/seu-usuario/ipv4-quiz-game.git
+   git clone https://github.com/your-username/ipv4-quiz-game.git
    cd ipv4-quiz-game
    flutter pub get
