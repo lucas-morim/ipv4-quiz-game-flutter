@@ -1,54 +1,143 @@
-# IPv4 Quiz Game 🎮
+# IPv4 Quiz Game
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.13.8-blue.svg)](https://flutter.dev)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+Um jogo educativo desenvolvido em Flutter para aprender e testar conhecimentos sobre redes IPv4, sub-redes e máscaras de rede através de quizzes interativos e gamificação.
 
-An educational game designed to test knowledge about **IPv4 addressing, subnetting, and network masks**, developed in **Flutter**.
+## 📚 Sobre o Projeto
 
----
+O **IPv4 Quiz Game** é uma aplicação mobile criada com foco no ensino de conceitos fundamentais de redes de computadores. O projeto utiliza elementos de gamificação para tornar o aprendizado mais dinâmico e envolvente, permitindo que os usuários pratiquem conhecimentos sobre:
 
-## 📌 Features
+* Endereçamento IPv4
+* Máscaras de rede
+* Sub-redes
+* Super-redes
+* Conceitos básicos de networking
 
-- **Authentication System**:
-  - User login and registration  
-  - Guest mode  
-  - Session management with Provider  
-
-- **Level-Based Quizzes**:
-  - ✅ Easy (Masks /8, /16, /24) — Timer: 30s, 3 lives  
-  - ⚠️ Medium (Various subnets) — Timer: 20s, 3 lives  
-  - 💀 Hard (Supernets and aggregation) — Timer: 10s, 3 lives  
-
-- **User Profile**:
-  - View statistics  
-  - Edit user information  
-  - Score history  
-
-- **Global Ranking**:
-  - Top 5 players per level  
-  - Compare your performance  
+O aplicativo possui diferentes níveis de dificuldade, sistema de ranking e estatísticas de desempenho.
 
 ---
 
-## 🛠️ Technologies Used
+## 🎯 Objetivos
 
-| Technology | Description |
-|-------------|-------------|
-| **Flutter 3.13** | Cross-platform framework |
-| **Provider** | State management |
-| **SQFlite** | Local SQLite database |
-| **Dart 3.1** | Programming language |
+* Desenvolver uma aplicação educacional voltada para redes IPv4
+* Auxiliar no aprendizado de subnetting e máscaras de rede
+* Oferecer um ambiente competitivo com ranking global
+* Permitir autenticação de usuários e modo visitante
+* Garantir boa experiência em dispositivos móveis
 
 ---
 
-## 🚀 How to Run
+## 🚀 Funcionalidades
 
-1. **Prerequisites**:
-   - Flutter SDK (version **3.13.8** or higher)  
-   - Configured device or emulator  
+* ✅ Login e registro de usuários
+* ✅ Modo visitante
+* ✅ Quizzes com níveis:
 
-2. **Installation**:
-   ```bash
-   git clone https://github.com/lucas-morim/ipv4-quiz-game.git
-   cd ipv4-quiz-game
-   flutter pub get
+  * Fácil
+  * Médio
+  * Difícil
+* ✅ Sistema de vidas
+* ✅ Tempo limitado por questão
+* ✅ Perfil do usuário
+* ✅ Estatísticas e histórico de partidas
+* ✅ Ranking global de jogadores
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia     | Descrição                        |
+| -------------- | -------------------------------- |
+| Flutter 3.13.8 | Framework mobile multiplataforma |
+| Dart 3.1       | Linguagem principal              |
+| Provider       | Gerenciamento de estado          |
+| SQFlite        | Banco de dados SQLite local      |
+
+---
+
+## 📱 Capturas de Tela
+
+> Adicione aqui imagens da aplicação.
+
+```md
+![Login](assets/screenshots/login.png)
+![Home](assets/screenshots/home.png)  
+![Quiz](assets/screenshots/on_game.png)
+![Ranking](assets/screenshots/top_scores.png)
+```
+
+---
+
+## ⚙️ Como Executar o Projeto
+
+### Pré-requisitos
+
+* Flutter SDK instalado
+* Dart SDK
+* Android Studio ou VS Code
+* Emulador Android/iOS ou dispositivo físico
+
+### Clone o repositório
+
+```bash
+git clone https://github.com/lucas-morim/ipv4-quiz-game-flutter.git
+```
+
+### Acesse a pasta do projeto
+
+```bash
+cd ipv4-quiz-game
+```
+
+### Instale as dependências
+
+```bash
+flutter pub get
+```
+
+### Execute o projeto
+
+```bash
+flutter run
+```
+
+---
+
+## 📖 Estrutura do Projeto
+
+```bash
+lib/
+├── models/
+├── providers/
+├── screens/
+├── widgets/
+├── services/
+└── main.dart
+```
+
+---
+
+## 🧠 Conceitos Trabalhados
+
+* IPv4 Addressing
+* CIDR
+* Subnetting
+* Network Masks
+* Supernetting
+* Network Calculations
+
+---
+
+## 📌 Conclusão
+
+O IPv4 Quiz Game demonstrou ser uma ferramenta eficaz para o ensino e revisão de conceitos de redes de computadores, utilizando gamificação para tornar o aprendizado mais acessível e motivador.
+
+Sua estrutura modular permite futuras expansões para outros temas relacionados à área de redes e infraestrutura.
+
+---
+
+## 👨‍💻 Autores
+
+* Lucas Morim
+* Rúben Teixeira
+
+ISLA Gaia
