@@ -75,23 +75,27 @@ O aplicativo possui diferentes níveis de dificuldade, sistema de ranking e esta
 <sub>Profile</sub>
 </td>
 </tr>
+</table>
 
+<br>
+
+<table>
 <tr>
 <td align="center">
 <img src="./assets/screenshots/on_game.png" width="220"/><br>
 <sub>Quiz</sub>
 </td>
 
+<td width="40"></td>
+
 <td align="center">
 <img src="./assets/screenshots/top_scores.png" width="220"/><br>
 <sub>Ranking</sub>
 </td>
 </tr>
-
 </table>
 
 </div>
-
 
 ---
 
