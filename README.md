@@ -60,13 +60,15 @@ O aplicativo possui diferentes níveis de dificuldade, sistema de ranking e esta
 
 <table>
 <tr>
-<td><img src="./assets/screenshots/login.png" width="250"/></td>
-<td><img src="./assets/screenshots/home.png" width="250"/></td>
+<td align="center"><img src="./assets/screenshots/login.png" width="220"/><br><sub>Login</sub></td>
+<td align="center"><img src="./assets/screenshots/home.png" width="220"/><br><sub>Home</sub></td>
+<td align="center"><img src="./assets/screenshots/profile.png" width="220"/><br><sub>Profile</sub></td>
 </tr>
 
 <tr>
-<td><img src="./assets/screenshots/on_game.png" width="250"/></td>
-<td><img src="./assets/screenshots/top_scores.png" width="250"/></td>
+<td align="center"><img src="./assets/screenshots/on_game.png" width="220"/><br><sub>Quiz</sub></td>
+<td align="center"><img src="./assets/screenshots/top_scores.png" width="220"/><br><sub>Ranking</sub></td>
+<td></td>
 </tr>
 </table>
 
