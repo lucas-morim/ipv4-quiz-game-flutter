@@ -56,20 +56,21 @@ O aplicativo possui diferentes níveis de dificuldade, sistema de ranking e esta
 
 ## 📱 Capturas de Tela
 
-> Adicione aqui imagens da aplicação.
+<div align="center">
 
-<picture>
-  <img alt="Login Screen" src="./assets/screenshots/login.png">
-</picture>
-<picture>
-  <img alt="Home Screen" src="./assets/screenshots/home.png">
-</picture>
-<picture>
-  <img alt="OnGame Screen" src="./assets/screenshots/on_game.png">
-</picture>
-<picture>
-  <img alt="TopScores Screen" src="./assets/screenshots/top_scores.png">
-</picture>
+<table>
+<tr>
+<td><img src="./assets/screenshots/login.png" width="250"/></td>
+<td><img src="./assets/screenshots/home.png" width="250"/></td>
+</tr>
+
+<tr>
+<td><img src="./assets/screenshots/on_game.png" width="250"/></td>
+<td><img src="./assets/screenshots/top_scores.png" width="250"/></td>
+</tr>
+</table>
+
+</div>
 
 ---
 
