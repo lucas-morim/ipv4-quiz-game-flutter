@@ -58,12 +58,18 @@ O aplicativo possui diferentes níveis de dificuldade, sistema de ranking e esta
 
 > Adicione aqui imagens da aplicação.
 
-```md
-![Login](assets/screenshots/login.png)
-![Home](assets/screenshots/home.png)  
-![Quiz](assets/screenshots/on_game.png)
-![Ranking](assets/screenshots/top_scores.png)
-```
+<picture>
+  <img alt="Login Screen" src="./assets/screenshots/login.png">
+</picture>
+<picture>
+  <img alt="Home Screen" src="./assets/screenshots/home.png">
+</picture>
+<picture>
+  <img alt="OnGame Screen" src="./assets/screenshots/on_game.png">
+</picture>
+<picture>
+  <img alt="TopScores Screen" src="./assets/screenshots/top_scores.png">
+</picture>
 
 ---
 
